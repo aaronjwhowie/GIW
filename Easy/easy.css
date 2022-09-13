@@ -1,0 +1,98 @@
+.flag {
+  display: grid;
+  grid-template-columns: repeat(20, 100px);
+  grid-template-rows: repeat(20, 100px);
+  background-color: rgb(17 85 165);
+  width: 1000px;
+  height: 1000px;
+}
+
+div {
+  color: white;
+}
+
+/* 
+div {
+  color: rgb(55, 110, 191);
+} */
+
+/* Stars */
+
+/* First Row */
+.star {
+  color: white;
+  grid-area: 1 /1 /1 /1;
+  grid-gap: 15px;
+}
+
+.star2 {
+  color: white;
+  grid-area: 1 /7 /1 /15;
+  grid-gap: 15px;
+  background-color: red;
+}
+
+.star3 {
+  color: white;
+  grid-area: 2 /7 /2 /15;
+  grid-gap: 15px;
+  background-color: white;
+}
+
+.star4 {
+  color: white;
+  grid-area: 3 /7 /3 /15;
+  grid-gap: 15px;
+  background-color: red;
+}
+
+.star5 {
+  color: white;
+  grid-area: 4 /7 /4 /15;
+  grid-gap: 15px;
+  background-color: white;
+}
+
+.star6 {
+  color: white;
+  grid-area: 5 /7 /5 /15;
+  grid-gap: 15px;
+  background-color: red;
+}
+
+.star7 {
+  color: white;
+  grid-area: 6 /1 /6 /15;
+  grid-gap: 15px;
+  background-color: white;
+}
+
+.star8 {
+  color: white;
+  grid-area: 7 /1 /7 /15;
+  grid-gap: 15px;
+  background-color: red;
+}
+
+.star9 {
+  grid-area: 8/1/8/15;
+  background-color: white;
+}
+
+.star10 {
+  grid-area: 9/1/9/15;
+  background-color: red;
+}
+
+.star11 {
+  grid-area: 10/1/10/15;
+  background-color: white;
+}
+.star12 {
+  grid-area: 11/1/11/15;
+  background-color: red;
+}
+.star13 {
+  grid-area: 12/1/12/15;
+  background-color: white;
+}
